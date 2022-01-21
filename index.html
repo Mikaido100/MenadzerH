@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <script src="./libs/aes.js"></script>
+    <script src= "libs/sha3.js"></script>
+</head>
+
+<body onload="init()">
+    <form>
+        <label for="login">Login:</label><br>
+        <input type="text" id="login" name="login"><br>
+        <label for="passwd">Hasło:</label><br>
+        <input type="text" id="passwd" name="passwd"><br>
+        <label for="site">Strona:</label><br>
+        <input type="text" id="site" name="site"><br><br>
+        <input type="submit" value="Zapisz" onclick="save()"><br><br><br>
+    </form>
+        <div id="table"></div>
+</body>
+
+</html>
